@@ -1,0 +1,165 @@
+
+body {
+	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+	font-size: 14ps;
+	background-color: #F2F2F2;
+	color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 640px;
+}
+
+p {
+	margin: 20px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+a.big {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 34px;
+	color: #0091E8;
+	margin-bottom: 2px;
+	text-decoration: none;
+	border-radius: 10px;
+	background-image: url('images/link.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	transition: background-color 0.25s;
+}
+
+a.big:hover {
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.github {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 34px;
+	color: #0091E8;
+	margin-bottom: 2px;
+	text-decoration: none;
+	border-radius: 10px;
+	background-image: url('images/github.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	transition: background-color 0.25s;
+}
+
+a.github:hover {
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.mail {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 34px;
+	color: #0091E8;
+	margin-bottom: 2px;
+	text-decoration: none;
+	border-radius: 10px;
+	background-image: url('images/mail.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	transition: background-color 0.25s;
+}
+
+a.mail:hover {
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.home {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 24px;
+	color: #0091E8;
+	margin-bottom: 2px;
+	text-decoration: none;
+	border-radius: 10px;
+	background-image: url('images/home.png');
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	transition: background-color 0.25s;
+}
+
+a.home:hover {
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+}
+
+a {
+	color: #0091E8;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	background-color: #222222;
+	color: #F2F2F2;
+	margin-bottom: 0px;
+}
+
+div.separator {
+	width: 100%;
+	border-top: 2px solid #222222;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.lightsep {
+	width: 100%;
+	border-top: 2px dashed #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.footer {
+	font-size: 10pt;
+	text-align: center;
+}
+
+div.right {
+	text-align: right;
+}
+
+pre {
+  width: 100%;
+  color: #222222;
+  background-color: #FFFFFF;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
