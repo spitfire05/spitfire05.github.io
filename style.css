@@ -1,7 +1,7 @@
 
 body {
 	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 12pt;
 	background-color: #F2F2F2;
 	color: #222222;
 	margin-left: auto;
@@ -157,7 +157,7 @@ pre {
   color: #222222;
   background-color: #FFFFFF;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
+  font-size: 10pt;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
