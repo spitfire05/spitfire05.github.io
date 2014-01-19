@@ -163,3 +163,14 @@ pre {
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
 }
+
+code {
+  color: #222222;
+  background-color: #FFFFFF;
+  font-family: Consolas, "Bitstream Vera Sans Mono", Monaco, "Lucida Console", Terminal, monospace;
+  font-size: 11pt;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  overflow: auto;
+}
