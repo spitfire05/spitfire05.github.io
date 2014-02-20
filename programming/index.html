@@ -6,13 +6,13 @@
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
  <meta name="keywords" content="spitfire05, Forgotten Hope, Michal Borejszo, bf2, fh2, battlefield 2">
  <link rel="stylesheet" type="text/css" href="../style.css">
- <link rel="shortcut icon" href="/favicon.png" type="image/png">
- <link rel="icon" href="/favicon.png" type="image/png">
+ <link rel="shortcut icon" href="../favicon.png" type="image/png">
+ <link rel="icon" href="../favicon.png" type="image/png">
  
  <!-- syntaxhighlighter stuff -->
- <script type="text/javascript" src="/syntaxhighlighter/scripts/shCore.js"></script>
- <script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPython.js"></script>
- <link href="/syntaxhighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript" src="../syntaxhighlighter/scripts/shCore.js"></script>
+ <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushPython.js"></script>
+ <link href="../syntaxhighlighter/styles/shCoreEclipse.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -47,22 +47,33 @@ Here is a little snippet that may come in handy:
 def replace(org, rep, start, end):
     """
     Injects rep into org replacing characters from start to end.
+    Returns modified string.
+    
     org: string to work on
     rep: string that will be injected
     start: index of first char to be erased
     end: index of last char to be erased
     """
-    org = org[:start + 1] + rep + org[end:]
+    org = org[:start] + rep + org[end:]
     return org
 </pre>
 
 <p>
 <b>rep</b> will replace characters from <b>start</b> to <b>end</b> in string <b>org</b>.
+Like this:
 </p>
+
+<pre class="brush: python">
+text = 'Spam spam spam, spam spam!'    
+print replace(text, 'wonderful', 16, 20)
+
+# Output:
+# Spam spam spam, wonderful spam!
+</pre>
 
 <p>
 The <b>start</b> and <b>end</b> indexes are easy to find, for example using regular expressions,
-but this is not the topic of this snippet.
+but this is not the topic of this course ;-).
 </p>
 
 <div class="lightsep"></div>
