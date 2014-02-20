@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ <title>Useful code snippets | Traal</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="keywords" content="spitfire05, Forgotten Hope, Michal Borejszo, bf2, fh2, battlefield 2">
+ <link rel="stylesheet" type="text/css" href="../style.css">
+ <link rel="shortcut icon" href="/favicon.png" type="image/png">
+ <link rel="icon" href="/favicon.png" type="image/png">
+ 
+ <!-- syntaxhighlighter stuff -->
+ <script type="text/javascript" src="/syntaxhighlighter/scripts/shCore.js"></script>
+ <script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPython.js"></script>
+ <link href="/syntaxhighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<a class="home" href="../"></a><h1>Useful code snippets</h1>
+
+<div class="lightsep"></div>
+
+<h2>Python - replace part of string with other string</h2>
+
+<p>
+Often when dealing with strings you want to replace some part of it with other.
+Usually, you'd do:
+</p>
+
+<pre class="brush: python">
+text = 'The cake is a lie.'
+
+text = text.replace('a lie', 'delicious')
+</pre>
+
+<p>
+But what if string contains multiple instances of the text you want to replace,
+and you don't have to replace all of them?
+</p>
+
+<p>
+Here is a little snippet that may come in handy:
+</p>
+
+<pre class="brush: python">
+def replace(org, rep, start, end):
+    """
+    Injects rep into org replacing characters from start to end.
+    org: string to work on
+    rep: string that will be injected
+    start: index of first char to be erased
+    end: index of last char to be erased
+    """
+    org = org[:start + 1] + rep + org[end:]
+    return org
+</pre>
+
+<p>
+<b>rep</b> will replace characters from <b>start</b> to <b>end</b> in string <b>org</b>.
+</p>
+
+<p>
+The <b>start</b> and <b>end</b> indexes are easy to find, for example using regular expressions,
+but this is not the topic of this snippet.
+</p>
+
+<div class="lightsep"></div>
+
+<iframe src="/footnote.html" class="footer" frameborder=0></iframe>
+
+</body>
+
+</html>
