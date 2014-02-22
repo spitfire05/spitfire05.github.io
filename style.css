@@ -9,6 +9,10 @@ body {
 	width: 800px;
 }
 
+body.main {
+    width: 400px;
+}
+
 p {
 	margin: 20px;
 	text-align: justify;
@@ -30,13 +34,15 @@ a.big {
 	background-image: url('images/link.png');
 	background-repeat: no-repeat;
 	background-position: 5px center;
-	transition: background-color 0.25s;
+	transition: background-color 0.25s, margin 0.25s;
 }
 
 a.big:hover {
 	border-radius: 10px;
 	background-color: #FFFFFF;
 	text-decoration: none;
+    margin-left: 5px;
+    margin-right: -5px;
 }
 
 a.github {
@@ -52,13 +58,15 @@ a.github {
 	background-image: url('images/github.png');
 	background-repeat: no-repeat;
 	background-position: 5px center;
-	transition: background-color 0.25s;
+	transition: background-color 0.25s, margin 0.25s;
 }
 
 a.github:hover {
 	border-radius: 10px;
 	background-color: #FFFFFF;
 	text-decoration: none;
+    margin-left: 5px;
+    margin-right: -5px;
 }
 
 a.mail {
@@ -74,13 +82,15 @@ a.mail {
 	background-image: url('images/mail.png');
 	background-repeat: no-repeat;
 	background-position: 5px center;
-	transition: background-color 0.25s;
+	transition: background-color 0.25s, margin 0.25s;
 }
 
 a.mail:hover {
 	border-radius: 10px;
 	background-color: #FFFFFF;
 	text-decoration: none;
+    margin-left: 5px;
+    margin-right: -5px;
 }
 
 a.home {
