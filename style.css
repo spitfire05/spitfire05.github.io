@@ -13,6 +13,10 @@ body.main {
     width: 400px;
 }
 
+.black {
+    color: #000000;
+}
+
 p {
 	margin: 20px;
 	text-align: justify;
@@ -26,14 +30,11 @@ a.big {
 	height: 30px;
 	line-height: 30px;
 	padding-right: 10px;
-	padding-left: 34px;
+	padding-left: 10px;
 	color: #0091E8;
 	margin-bottom: 2px;
 	text-decoration: none;
 	border-radius: 10px;
-	background-image: url('images/link.png');
-	background-repeat: no-repeat;
-	background-position: 5px center;
 	transition: background-color 0.25s, margin 0.25s;
 }
 
@@ -45,67 +46,16 @@ a.big:hover {
     margin-right: -5px;
 }
 
-a.github {
-	display: inline-block;
-	height: 30px;
-	line-height: 30px;
-	padding-right: 10px;
-	padding-left: 34px;
-	color: #0091E8;
-	margin-bottom: 2px;
-	text-decoration: none;
-	border-radius: 10px;
-	background-image: url('images/github.png');
-	background-repeat: no-repeat;
-	background-position: 5px center;
-	transition: background-color 0.25s, margin 0.25s;
-}
-
-a.github:hover {
-	border-radius: 10px;
-	background-color: #FFFFFF;
-	text-decoration: none;
-    margin-left: 5px;
-    margin-right: -5px;
-}
-
-a.mail {
-	display: inline-block;
-	height: 30px;
-	line-height: 30px;
-	padding-right: 10px;
-	padding-left: 34px;
-	color: #0091E8;
-	margin-bottom: 2px;
-	text-decoration: none;
-	border-radius: 10px;
-	background-image: url('images/mail.png');
-	background-repeat: no-repeat;
-	background-position: 5px center;
-	transition: background-color 0.25s, margin 0.25s;
-}
-
-a.mail:hover {
-	border-radius: 10px;
-	background-color: #FFFFFF;
-	text-decoration: none;
-    margin-left: 5px;
-    margin-right: -5px;
-}
-
 a.home {
 	display: inline-block;
 	height: 30px;
 	line-height: 30px;
-	padding-right: 10px;
-	padding-left: 24px;
+	padding-right: 5px;
+	padding-left: 5px;
 	color: #0091E8;
 	margin-bottom: 0px;
 	text-decoration: none;
 	border-radius: 10px;
-	background-image: url('images/home.png');
-	background-repeat: no-repeat;
-	background-position: 5px center;
 	transition: background-color 0.25s;
 }
 
