@@ -19,4 +19,4 @@ The [code](http://poshcode.org/2898) to quickly deal with console buffer that I&
 
 The game&#8217;s code can be found on my github: <https://github.com/spitfire05/PowerSnake>
 
-**Update:** Graphical version has been made (using WinForms), allowing me to pass 'Operating Systems' course at my Uni.. emm, yeah. You can find it here: <https://github.com/spitfire05/PowerSnakeGFX.
+**Update:** Graphical version has been made (using WinForms), allowing me to pass 'Operating Systems' course at my Uni.. emm, yeah. You can find it here: <https://github.com/spitfire05/PowerSnakeGFX>
