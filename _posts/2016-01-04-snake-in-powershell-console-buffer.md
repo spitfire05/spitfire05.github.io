@@ -18,3 +18,5 @@ The game can be started with 5 different speeds. So far no &#8220;maps&#8221; (o
 The [code](http://poshcode.org/2898) to quickly deal with console buffer that I&#8217;ve found on [poshcode.com](http://poshcode.com) was of great help.
 
 The game&#8217;s code can be found on my github: <https://github.com/spitfire05/PowerSnake>
+
+**Update:** Graphical version has been made (using WinForms), allowing me to pass 'Operating Systems' course at my Uni.. emm, yeah. You can find it here: <https://github.com/spitfire05/PowerSnakeGFX.
