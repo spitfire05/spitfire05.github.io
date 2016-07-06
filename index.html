@@ -1,56 +1,37 @@
-<!DOCTYPE HTML>
-<html>
+---
+layout: default
+title: Home
+---
 
-<head>
- <title>Traal</title>
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- <meta name="keywords" content="spitfire05, Forgotten Hope, Michal Borejszo, bf2, fh2, battlefield 2">
- <link rel="stylesheet" type="text/css" href="style.css">
- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
- <link rel="shortcut icon" href="/favicon.png" type="image/png">
- <link rel="icon" href="/favicon.png" type="image/png">
- 
- <!-- SITE MOVED -->
- <meta HTTP-EQUIV="REFRESH" content="0; url=http://traal.eu">
- <!-- ---------- -->
- 
-</head>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<body class="main">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-<h1>Welcome to Traal</h1>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-<h3>Watch out for the ravenous bugblatter beast...</h3>
-
-<div class="lightsep"></div>
-
-<a class="big" href="bf2tools/"><i class="fa fa-lg black fa-arrow-circle-right"></i> Battlefield 2 modding tools & hacks</a>
-<br>
-<a class="big" href="programming/"><i class="fa fa-lg black fa-arrow-circle-right"></i> Useful code snippets</a>
-
-<div class="lightsep"></div>
-
-<a class="big" href="SwProjectInterface/"><i class="fa fa-lg black fa-arrow-circle-right"></i> SwProjectInterface</a>
-<br>
-<a class="big" href="swsp/"><i class="fa fa-lg black fa-arrow-circle-right"></i> SolidWorks Standard Primitives</a>
-<br>
-<a class="big" href="https://github.com/spitfire05/update-checker-dotnet"><i class="fa fa-lg black fa-arrow-circle-right"></i> update-checker-dotnet</a>
-<br>
-<a class="big" href="https://github.com/spitfire05/svn-smf-hook"><i class="fa fa-lg black fa-arrow-circle-right"></i> svn-smf-hook</a>
-
-<div class="lightsep"></div>
-
-<a class="big" href="http://fhmod.org"><i class="fa fa-lg black fa-arrow-circle-right"></i> Forgotten Hope</a><br>
-
-<div class="lightsep"></div>
-
-<a class="big" href="https://github.com/spitfire05"><i class="fa fa-lg black fa-github"></i> My GitHub</a>
-<a class="big" href="mailto:michal@traal.eu"><i class="fa fa-lg black fa-envelope"></i> michal@traal.eu</a>
-
-<div class="lightsep"></div>
-
-<iframe src="footnote.html" class="footer" frameborder=0></iframe>
-
-</body>
-
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
