@@ -51,7 +51,7 @@ bf2editor.exe that can use up to 3GB (on [properly configured](http://technet.mi
 
 BF2 Editor version: 1.3
 
-[<i class="fa fa-lg black fa-arrow-circle-right"></i> Download](http://fhbeta.warumdarum.de/%7Espitfire/bf2editor-laa/BF2Editor.exe){.big}
+[<i class="fa fa-lg black fa-arrow-circle-right"></i> Download](http://fhbeta.warumdarum.de/%7Espitfire/bf2editor-laa/BF2Editor.exe)
 
 ### Forgotten Hope 2 map packing tools
 
@@ -67,7 +67,7 @@ Based on FH2 packing scripts by [FH]ctz
 
 Requires Python 2.5 2.6 or 2.7 - http://python.org/download/</pre>
 
-[<i class="fa fa-lg black fa-arrow-circle-right"></i> Download](http://beta.fhmod.org/%7Espitfire/fh2pub/2.45/map-pack-2.45.zip){.big}
+[<i class="fa fa-lg black fa-arrow-circle-right"></i> Download](http://beta.fhmod.org/%7Espitfire/fh2pub/2.45/map-pack-2.45.zip)
 
 ### RendDX9.dll working without 800&#215;600 mode
 
@@ -75,13 +75,13 @@ This is RendDX9.dll hacked not to switch to 800&#215;600 mode (regardles of what
 
 NOTE: This **will** cause [PunkBuster](http://evenbalance.com) to kick you from servers!
 
-[<i class="fa fa-lg black fa-arrow-circle-right"></i> Download](http://beta.fhmod.org/%7Espitfire/bf2hacks/RendDX9.zip){.big}
+[<i class="fa fa-lg black fa-arrow-circle-right"></i> Download](http://beta.fhmod.org/%7Espitfire/bf2hacks/RendDX9.zip)
 
 ### See also
 
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Battlefield Mesh Viewer by [FH]Remdul](http://www.bytehazard.com/bfstuff/bfmeshview/){.big}
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Battlefield mod tools by [FH]Remdul](http://bytehazard.com/bfstuff/){.big}
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> POE BF2 Tools](http://www.fhmod.org/bf2tools/poe2_3dsMax9_Tools_v0.30.zip){.big}
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Forgoten Hope 2 mapping tutorials &#8211; by FH devs & [EA]Lawrence Brown](http://forgottenhope.warumdarum.de/tutorials/){.big}
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> BF2 Technical Information Wiki](http://bf2tech.org/){.big} (status: gone  <img src="http://traal.eu/wp/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />)
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> bfeditor.org forums](http://www.bfeditor.org/forums/){.big} (status: gone  <img src="http://traal.eu/wp/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />)
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Battlefield Mesh Viewer by [FH]Remdul](http://www.bytehazard.com/bfstuff/bfmeshview/)
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Battlefield mod tools by [FH]Remdul](http://bytehazard.com/bfstuff/)
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> POE BF2 Tools](http://www.fhmod.org/bf2tools/poe2_3dsMax9_Tools_v0.30.zip)
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Forgoten Hope 2 mapping tutorials &#8211; by FH devs & [EA]Lawrence Brown](http://forgottenhope.warumdarum.de/tutorials/)
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> BF2 Technical Information Wiki](http://bf2tech.org/)
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> bfeditor.org forums](http://www.bfeditor.org/forums/) (status: gone) 
