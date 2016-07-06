@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+gems:             [jekyll-paginate]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Traal
+tagline:          ';-)'
+description:      'Michał "spitfire" Borejszo'
+url:              http://traal.eu
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
