@@ -6,6 +6,18 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+
+  <p>
+    <iframe
+      src="https://www.facebook.com/plugins/like.php?href={{ site.url}}{{ page.url }}&width=148&layout=button&action=like&size=small&show_faces=false&share=true&height=20&appId"
+      width="148" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+    </iframe>
+    <a class="twitter-share-button"
+      href="https://twitter.com/intent/tweet">
+      Tweet
+    </a>
+  </p>
+
 </div>
 
 <div class="related">
