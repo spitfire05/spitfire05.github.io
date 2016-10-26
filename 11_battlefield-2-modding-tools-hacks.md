@@ -84,4 +84,4 @@ NOTE: This **will** cause [PunkBuster](http://evenbalance.com) to kick you from 
   * [<i class="fa fa-lg black fa-arrow-circle-right"></i> POE BF2 Tools](http://www.fhmod.org/bf2tools/poe2_3dsMax9_Tools_v0.30.zip)
   * [<i class="fa fa-lg black fa-arrow-circle-right"></i> Forgoten Hope 2 mapping tutorials &#8211; by FH devs & [EA]Lawrence Brown](http://forgottenhope.warumdarum.de/tutorials/)
   * [<i class="fa fa-lg black fa-arrow-circle-right"></i> BF2 Technical Information Wiki](http://bf2tech.org/)
-  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> bfeditor.org forums](http://www.bfeditor.org/forums/) (status: gone) 
+  * [<i class="fa fa-lg black fa-arrow-circle-right"></i> bfeditor.org forums](http://www.bfeditor.org/forums/) 
