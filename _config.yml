@@ -11,7 +11,7 @@ title:            Traal
 tagline:          ''
 description:      'Michał "spitfire" Borejszo'
 url:              http://blog.traal.eu
-baseurl:          /
+#baseurl:          /
 
 author:
   name:           'Mark Otto'
