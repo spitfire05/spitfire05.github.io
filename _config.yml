@@ -10,8 +10,8 @@ permalink:        pretty
 title:            Traal
 tagline:          ''
 description:      'Michał "spitfire" Borejszo'
-url:              http://traal.eu
-baseurl:          /blog
+url:              http://blog.traal.eu
+baseurl:          /
 
 author:
   name:           'Mark Otto'
