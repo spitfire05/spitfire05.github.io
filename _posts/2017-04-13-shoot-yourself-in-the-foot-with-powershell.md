@@ -29,7 +29,7 @@ False
 foobar
 ```
 
-If you remove the `[string]` decorator, it works "sane" (prints just 'False').
+If you remove the `[string]` decorator, it works "sane" (prints just `False`).
 
 The foot-shooting happens becuase in second line, there is an implicit cast to string, if $x is strongly typed.
 
