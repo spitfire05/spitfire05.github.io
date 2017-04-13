@@ -9,6 +9,8 @@ I've manged to *shot myself in the foot* in powershell twice lately, therefore I
 
 Without further ado, here they are:
 
+***
+
 ## Strong typing can backfire right at you
 
 ```powershell
@@ -26,6 +28,8 @@ Writes to console:
 False
 foobar
 ```
+
+***
 
 ## The exit codes..
 
