@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shoot yourself in the foot with powershell"
-date:   2017-04-113 14:13:00 -0200
+date:   2017-04-13 14:13:00 -0200
 categories: powershell powerfoot
 ---
 
