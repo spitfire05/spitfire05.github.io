@@ -1,3 +1,9 @@
 code, pre {
 	font-family: Consolas, "Lucida Console", Menlo, Monaco, "Courier New", monospace;
 }
+
+@media (min-width: 95em) {
+  .content {
+      margin:auto;
+  }
+}
