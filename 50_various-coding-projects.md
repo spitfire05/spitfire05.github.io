@@ -7,6 +7,8 @@ layout: page
 guid: http://traal.eu/wp/?page_id=81
 ---
 
+Here are the various tools / scripts / minor project I've created and think are worth mentioning.
+
 | Title | Description |
 | --- | --- |
 | [SwProjectInterface](https://github.com/spitfire05/SwProjectInterface "SwProjectInterface") | A small project library manager for SolidWorks users |
