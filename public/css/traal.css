@@ -1,8 +1,8 @@
 code, pre {
-	font-family: "Ubuntu Mono", Consolas, "Lucida Console", Menlo, Monaco, "Courier New", monospace;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
 }
 
-@media (min-width: 95em) {
+@media (min-width: 105em) {
   .content {
       margin:auto;
   }
