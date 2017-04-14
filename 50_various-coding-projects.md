@@ -6,6 +6,11 @@ author: spitfire
 layout: page
 guid: http://traal.eu/wp/?page_id=81
 ---
-  * [SwProjectInterface](https://github.com/spitfire05/SwProjectInterface "SwProjectInterface") &#8211; a small project library manager for SolidWorks users.
-  * [Soliworks Standard Primitives](https://github.com/spitfire05/swsp "Soliworks Standard Primitives") &#8211; a SolidWorks addon to speed up sketching some basic shapes.
-  * [svn-smf-hook](https://github.com/spitfire05/svn-smf-hook "svn-smf-hook") &#8211; a Subversion hook script that posts commits into Simple Machnies Forum.
+
+| Title | Description |
+| --- | --- |
+| [SwProjectInterface](https://github.com/spitfire05/SwProjectInterface "SwProjectInterface") | A small project library manager for SolidWorks users |
+| [Soliworks Standard Primitives](https://github.com/spitfire05/swsp "Soliworks Standard Primitives") | A SolidWorks addon to speed up sketching some basic shapes |
+| [svn-smf-hook](https://github.com/spitfire05/svn-smf-hook "svn-smf-hook") | A Subversion hook script that posts commits into Simple Machnies Forum |
+| [PowerSnake](https://github.com/spitfire05/PowerSnake) | Classic snake game in Powershell Console buffer |
+| [PowerSnakeGFX](https://github.com/spitfire05/PowerSnakeGFX) | Derivative of PowerSnake with use of WinForms and simple graphics |
