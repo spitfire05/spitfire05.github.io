@@ -15,16 +15,6 @@ title: Home
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
-    <p>
-      <iframe
-        src="https://www.facebook.com/plugins/like.php?href={{ site.url}}{{ post.url }}&width=148&layout=button&action=like&size=small&show_faces=false&share=true&height=20&appId"
-        width="148" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
-      </iframe>
-      <a class="twitter-share-button"
-        href="https://twitter.com/intent/tweet?url={{ site.url }}{{ post.url }}">
-        Tweet
-      </a>
-    </p>
   </div>
   {% endfor %}
 </div>

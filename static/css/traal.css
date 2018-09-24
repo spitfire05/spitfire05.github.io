@@ -1,0 +1,15 @@
+code, pre {
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+}
+
+/* Makes code blocks have horizontal scrollers and nowrap */
+pre.highlight {
+  overflow-x: auto;
+  white-space: pre;
+}
+
+@media (min-width: 105em) {
+  .content {
+      margin:auto;
+  }
+}

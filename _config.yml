@@ -14,12 +14,10 @@ url:              http://blog.traal.eu
 #baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Michal Borejszo'
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
-
 repository:           spitfire05/spitfire05.github.io

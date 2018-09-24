@@ -11,7 +11,7 @@ categories:
 ---
 As a part of &#8220;discovering&#8221; PowerShell, I had an idea to quickly wrap-up a classic snake game. So.. despite of having lots of more urgent tasks on my head at that moment, I of course decided to sacrifice few hours to this task. The result is this:
 
-![PowerSnake window]({{ site.baseurl }}/public/images/powersnake1.jpg)
+![PowerSnake window]({{ site.baseurl }}/static/images/powersnake1.jpg)
 
 The game can be started with 5 different speeds. So far no &#8220;maps&#8221; (obstacles) but that may come in the future (to be honest, I am afraid that I&#8217;ll waste even more time on this project).
 
